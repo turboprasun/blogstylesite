@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    width: 1920px;
+    height: 3638px;
+    background-color:#111A20;
+}
+.header {
+    margin:70px 278px;
+    height: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Montserrat, sans-serif;
+}
+.header span {
+    color:#D9E6ED;
+    font-size: 22px;
+    letter-spacing: 1.03px;
+}
+.menu span {
+    color:#D9E6ED;
+    font-size: 18px;
+    margin-left: 22px;
+    padding: 5px;
+    letter-spacing: 0.85px;
+    justify-content: flex-end;
+}
+.contact {
+    border-radius: 5px;
+    border: 1px solid #D9E6ED;
+    padding: 10px 20px;
+}
+.description {
+    margin-left: 278px;
+    margin-top: 214px;
+}
+.description h1 {
+    color:#83F9A2;
+    font-size: 60px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2.82px;
+}
+.description p {
+    font-family: Ubuntu,sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.88px;
+    color: #D9E6ED;
+    margin-top: 60px;
+}
+.twitter {
+    color:#00ACEE;
+}
+.github {
+    color:#808284;
+}
+.dribbble {
+    color:#EA4C89;
+}
+.resume {
+    background-color: #83F9A2;
+    height:47px;
+    width:175px;
+    border-radius: 5px;
+    color: #111A20;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1.03px;
+    font-family: Montserrat,sans-serif;
+    margin-top: 53px;
+    align-items: center;
+    font-weight: 700;
+}
+.resume span {
+    margin-left: 5px;
+}
+.articles {
+    margin: 333px 278px 0 278px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color:#D9E6ED;
+}
+.articles h3 {
+    font-family: Montserrat,sans-serif;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+}
+.articles span {
+    font-size: 27px;
+    letter-spacing: 1.03px;
+}
+.articles-content {
+    color:#D9E6ED;
+    margin: 56px 278px;
+    display: flex;
+    font-family: Montserrat,sans-serif;
+}
+.articles-content span {
+    display: flex;
+    position: relative;
+    left:16px;
+    top:16px;
+    font-size: 20px;
+}
+.date {
+    color: #3C5F77;
+    font-size: 16px;
+    margin-top: 16px;
+}
