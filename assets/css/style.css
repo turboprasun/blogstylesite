@@ -29,6 +29,10 @@ body {
     letter-spacing: 0.85px;
     justify-content: flex-end;
 }
+.menu span:hover {
+    cursor: pointer;
+    color:#E10A86;
+}
 .contact {
     border-radius: 5px;
     border: 1px solid #D9E6ED;
@@ -41,12 +45,14 @@ body {
 .description h1 {
     color:#83F9A2;
     font-size: 60px;
+    line-height: 73px;
     font-family: Montserrat, sans-serif;
     letter-spacing: 2.82px;
 }
 .description p {
     font-family: Ubuntu,sans-serif;
     font-size: 20px;
+    line-height: 35px;
     letter-spacing: 0.88px;
     color: #D9E6ED;
     margin-top: 60px;
@@ -75,6 +81,10 @@ body {
     align-items: center;
     font-weight: 700;
 }
+.resume:hover {
+    background-color: #EA4C89;
+    cursor: pointer;
+}
 .resume span {
     margin-left: 5px;
 }
@@ -100,6 +110,15 @@ body {
     display: flex;
     font-family: Montserrat,sans-serif;
 }
+.articles-content a,
+.articles a {
+    text-decoration: none;
+    color: #D9E6ED;
+}
+.articles-content a:hover,
+.articles a:hover {
+    color:#E10A86;
+}
 .articles-content span {
     display: flex;
     position: relative;
@@ -111,4 +130,123 @@ body {
     color: #3C5F77;
     font-size: 16px;
     margin-top: 16px;
+}
+.work-1 {
+    margin: 53px 278px 0 278px;
+    height:430px;
+    border-radius: 5px;
+    border-left:2px solid #CCA9F4;
+    color:#D9E6ED;
+    background-color: #1C2C35;
+}
+.work-1 h4 {
+    padding-top: 64px;
+    margin-left: 55px;
+    font-family: Montserrat,sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.32px;
+}
+.work-1 p {
+    font-family: Ubuntu,sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.88px;
+    margin: 40px 49px 40px 55px;
+    line-height: 35px;
+}
+.work-1 a,
+.work-21 a,
+.work-22 a {
+    text-decoration: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    color:#D9E6ED;
+    padding: 9px 20px;
+    border: 1px solid #D9E6ED;
+    border-radius: 5px;
+    margin: 40px 55px;
+}
+.work-1 a:hover,
+.work-21 a:hover,
+.work-22 a:hover{
+    background-color: #E10A86;
+
+} 
+.work-2 {
+    height:430px;
+    margin:20px 278px;
+    color:#D9E6ED;
+    display: flex;
+    flex-direction: row;
+}
+.work-21 {
+    background-color: #1C2C35;
+    border-radius: 5px;
+    border-left: 2px solid #83F9A2;
+}
+.work-22 {
+    margin-left: 20px;
+    background-color: #1C2C35;
+    border-radius: 5px;
+    border-left: 2px solid #D9534D;
+}
+.work-21 h4,
+.work-22 h4 {
+    font-family: Montserrat,sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.32px;
+    margin:44px 53px;
+}
+.work-21 p,
+.work-22 p {
+    font-family: Ubuntu,sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.88px;
+    margin:40px 25px 50px 50px;
+}
+.query {
+    height:455px;
+    margin-top:260px;
+    background-color: #1C2C35;
+    text-align: center;
+}
+.query h1 {
+    padding-top: 83px;
+    color:#83F9A2;
+    font-family: Montserrat,sans-serif;
+    font-size: 60px;
+}
+.query p {
+    font-family: Ubuntu,sans-serif;
+    font-size: 21px;
+    color:#D9E6ED;
+    margin: 40px;
+}
+.query a {
+    text-decoration: none;
+    color: #111A20;
+    background-color: #83F9A2;
+    border-radius: 5px;
+    padding:10px 28px;
+    letter-spacing: 1.03px;
+    font-family: Montserrat,sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+.query a:hover {
+    background-color: #E10A86;
+}
+.footer {
+    margin: 70px 278px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.footer span {
+    font-family: Ubuntu,sans-serif;
+    font-size: 21px;
+    color: #D9E6ED;
+}
+.link img {
+    margin-left: 35px;
 }
